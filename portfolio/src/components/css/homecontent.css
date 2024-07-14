@@ -1,0 +1,114 @@
+.homecontentWrapper{
+    height: 88vh;
+    width: 100%;
+    overflow: hidden;
+}
+.homecontentMain{
+    padding: 2vw 0vw 1vw 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.homecontentMainHello{
+    padding: 10px 20px;
+    border: 0.5px black solid;
+    border-radius: 30px;
+}
+.homecontentMainHello h3{
+    font-size: 3vh;
+}
+/* .homecontentMainInfo{
+
+} */
+.homecontentMainInfo h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 9vh;
+}
+.homecontentMainInfo span{
+    color: #FD853A;
+    font-weight: 600;
+}
+.homecontentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 5vw;
+    position: relative;
+    top: 0vw;
+    transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.homecontentDetailsLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.homecontentDetailsLeftMain{
+    font-size: 3vh;
+}
+.homecontentDetailsRight{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.homecontentDetailsRightMain{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 3vh;
+}
+.homecontentDetailsRightMain h3{
+    font-size: 5vh;
+}
+.homecontentProfilePhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20vh;
+    z-index: 2;
+    height: 100vh;
+    width: 100vh;
+    margin: 0 25vw;
+    border-radius: 50%;
+    background-color: #fd853aca;
+    transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.homecontentProfilePhotoImg{
+    position: relative;
+    top: 17vh;
+    left: 6vw;
+    transform: scale(0.75);
+    transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.homecontentProfilePhotoBackground{
+    z-index: -1;
+    position: relative;
+    top: -60vh;
+    left: -3vw;
+    transform: scale(0.1);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.homecontentWrapper:hover .homecontentDetails{
+    top: -25vh;
+}
+.homecontentWrapper:hover .homecontentProfilePhoto{
+    top: -28vh;
+}
+.homecontentWrapper:hover .homecontentProfilePhotoImg{
+    top: 8vh;
+}
+.homecontentWrapper:hover .homecontentProfilePhotoBackground{
+    top: -93vh;
+    transform: scale(1);
+    transform: scaleX(1.15);
+}
+.homecontentWrapper:hover .homecontentMain{
+    top: 30vw;
+}

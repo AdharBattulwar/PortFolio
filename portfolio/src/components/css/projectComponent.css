@@ -1,0 +1,77 @@
+.projectComponentWrapper{
+    height: 15.8rem;
+    width: 27rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-image: url(../../Icons/ProjectComponentImg.svg);
+    background-size: cover;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.projectComponentTop{
+    padding: 1rem ;
+    height: auto;
+    width: auto;
+    display: flex;
+
+}
+.projectComponentTopButton{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 2px solid #FD853A;
+    background-color: #FD853A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectComponentTopButton img{
+    transform: scale(0.7) rotate(-45deg);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+
+}
+.projectComponentBottom{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+
+}
+.projectComponentBottomHead{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.projectComponentBottomHead h3{
+    color:white;
+    font-size: 2rem;
+    font-weight: 100;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+
+}
+.projectComponentBottomDetails{
+    display: none;
+    color: #FFEAD5;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+
+    
+}
+.projectComponentWrapper:hover .projectComponentBottomDetails{
+    display: flex;
+    transform: scale(1.01);
+}
+.projectComponentWrapper:hover .projectComponentBottom{
+    backdrop-filter: blur(10px);
+    transform: scale(1.01);
+}
+.projectComponentWrapper:hover .projectComponentTopButton img{
+    transform: rotate(0deg) scale(0.8);
+}

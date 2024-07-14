@@ -1,0 +1,73 @@
+.hireWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F4F7;
+    margin: 1rem 0rem;
+    padding: 2rem 2rem 0 2rem ;
+}
+.hireMainLeft{
+    width: 50%;
+}
+.hireMainRight{
+    width: 50%;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hireMainRightHead{
+    padding: 2rem 0;
+}
+.hireMainRightHead h3{
+    font-size: 3.1rem;
+    color: #1D2939;
+}
+.hireMainRightHead span{
+    color: #FD853A;
+}
+.hireMainRightDetails{
+    width: 70%;
+    padding: 0 0 2rem 0;
+    color: #98A2B3;
+}
+.hireMainRightAcheivements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 0 0 2rem 0;
+}
+.hireMainRightAcheivementsProjects, .hireMainRightAcheivementsInternships{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+.hireMainRightAcheivementsProjectsHead, .hireMainRightAcheivementsInternshipsHead{
+    font-size: 1.8rem;
+}
+.hireMainRightAcheivementsProjectsDetails, .hireMainRightAcheivementsInternshipsDetails{
+    color: #98A2B3;
+}
+.hireMainRightHire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+.hireMainRightHireButton, .hireMainRightResumeButton{
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.hireMainRightHireButton:hover, .hireMainRightResumeButton:hover{
+    background-color: #FD853A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

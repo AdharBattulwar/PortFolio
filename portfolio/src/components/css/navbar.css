@@ -1,0 +1,38 @@
+.navbarWrapper{
+    height: 9vh;
+    width: 100%;
+    
+}
+.navbarMain{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+    margin: 3vh 5vw;
+    padding: 0.5vh 0.5vw;
+    border-radius: 90px;
+}
+.navbarMain div{
+    padding: 0 0vw;
+    height: 90%;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    border-radius: 90px;
+}
+.navbarMain div:hover{
+    background-color: #FD853A;
+    cursor: pointer;
+}
+.navbarMain a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

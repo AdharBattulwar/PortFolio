@@ -1,0 +1,111 @@
+.projectWrapper{
+    height: auto;
+    width: auto;
+    margin: 3vh 3vw;
+}
+.projectTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.projectTopLeft{
+    height: auto;
+    width: fit-content;
+}
+.projectTopLeft h3{
+    color: #344054;
+    font-size: 3.1rem;
+}
+.projectTopLeft span{
+    color: #FD853A;
+}
+.projectTopRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectTopRightButton{
+    height: auto;
+    width: auto;
+    padding: 0.8rem 2rem;
+    background-color: #FD853A;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.projectMiddle{
+    margin: 2rem 3rem 1.5rem 3rem;
+}
+.projectBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectBottomTop{
+    display: flex;
+    gap: 1rem;
+}
+.projectBottomTopButton{
+    height: auto;
+    width: auto;
+    padding: 0.8rem 1.8rem;
+    background-color: #F2F4F7;
+    border-radius: 4rem;
+}
+.projectBottomBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 14rem;
+}
+.projectBottomBottomTop{
+    padding:0 0 2rem 0;
+    display: flex;
+    gap: 5rem;
+}
+.projectBottomBottomTop h4{
+    font-size: 2rem;
+    color: #344054;
+}
+.projectBottomBottomTopArrow{
+    height: 2rem;
+    width: 2rem;
+    background-color: #FD853A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    transform: rotate(-45deg);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.projectBottomBottomTopArrow img{
+    transform:scale(0.8)
+}
+.projectBottomBottomTopArrow:hover{
+    transform: rotate(0deg);
+}
+.projectBottomBottomBottom{
+    color: #344054;
+}
+.SplideSlideProject{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .SplideSlideProject:hover :only-child{
+
+} */
+.splide__pagination__page{
+    background: #E4E7EC;
+}
+.splide__arrow svg {
+    fill: white;
+}
+.splide__pagination__page.is-active {
+    background: #FD853A;
+}

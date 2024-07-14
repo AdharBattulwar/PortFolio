@@ -1,0 +1,118 @@
+.contactWrapper{
+    height: auto;
+    width: auto;
+    background-color: #272727;
+    padding: 2vh 4vw;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.contactTop{
+    width: 100%;
+    display: flex;
+    color: #FCFCFD;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 0 4vw 0;
+    border-bottom: 0.15rem solid #475467a9;
+}
+.contactTopLeft{
+    font-size: 2.5rem;
+}
+.contactTopRight{
+    background-color: #FD853A;
+    padding: 1vw 3vw;
+    border-radius: 2rem;
+}
+.contactMiddle{
+    height: 32vh;
+    width: auto;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 0 4vw 0;
+    border-bottom: 0.15rem solid #475467a9;
+}
+.contactMiddleFirst{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vh;
+}
+.contactMiddleFirstLogo{
+    height: 4vw;
+    width: 7vw;
+    /* background-image: url(../../Icons/Logo\ maker\ project.jpeg); */
+    background-size: contain;
+}
+/* .contactMiddleFirstLogo img{
+    height: 4vw;
+    width: 7vw;
+    background-size: cover;
+} */
+.contactMiddleFirstDiscription{
+    color: #FCFCFD;
+    font-weight: lighter;
+    font-size: 0.87rem;
+
+}
+.contactMiddleSecond{
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+.contactMiddleSecondHead{
+    color: #FD853A;
+    padding: 3vh 0;
+}
+.contactMiddleSecondChild{
+    color: #FCFCFD;
+    font-size: 0.87rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.contactMiddleThird{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contactMiddleThirdHead{
+    color: #FD853A;
+    padding: 3vh 0;
+}
+.contactMiddleThirdChild{
+    color: #FCFCFD;
+    display: flex;
+    font-size: 0.87rem;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.contactMiddleFourth{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contactMiddleFourthHead{
+    color: #FD853A;
+    padding: 3vh 0;
+}
+.contactMiddleFourthChild input{
+    border-radius: 2rem;
+    border: none;
+    padding: 1vh 2vh;
+    color: black;
+}
+.contactBottom{
+    padding: 5vh 0 3vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FCFCFD;
+    cursor: pointer;
+}
