@@ -55,11 +55,12 @@
     border-radius: 4rem;
 }
 .projectBottomBottom{
+    width: 82vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 14rem;
+    padding: 2rem 0rem;
 }
 .projectBottomBottomTop{
     padding:0 0 2rem 0;

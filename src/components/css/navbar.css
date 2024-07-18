@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #171717;
+    gap: 1vw;
     margin: 3vh 5vw;
     padding: 0.5vh 0.5vw;
     border-radius: 90px;

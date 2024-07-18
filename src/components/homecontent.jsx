@@ -8,13 +8,23 @@ const homecontent = () => {
   return (
     <>
         <div className='homecontentWrapper'>
+            <div className='homecontentProfilePhoto'>
+                <div className='homecontentProfilePhotoCircle'>
+                    <div className='homecontentProfilePhotoImg'>
+                        <img src={ProfilePhoto} alt='profilephoto'></img>
+                    </div>
+                    <div className='homecontentProfilePhotoBackground'>
+                        <img src={ProfileBackground} alt='profile Backround'></img>
+                    </div>
+                </div>
+            </div>
             <div className='homecontentMain'>
                 <div className='homecontentMainHello'>
                     <h3>Hello!</h3>
                 </div>
                 <div className='homecontentMainInfo'>
                     <h1>
-                        I'm <span>Adhar</span>,<br/><pre>  Web            Designer</pre>
+                        I'm <span>Adhar</span>,<br/><pre>     Web      Designer</pre>
                     </h1>
                 </div>
             </div>
@@ -34,16 +44,6 @@ const homecontent = () => {
                     <div className='homecontentDetailsRightMain'>
                         <h3>2 Years</h3>
                         Experince
-                    </div>
-                </div>
-            </div>
-            <div className='homecontentProfilePhoto'>
-                <div className='homecontentProfilePhotoCircle'>
-                    <div className='homecontentProfilePhotoImg'>
-                        <img src={ProfilePhoto} alt='profilephoto'></img>
-                    </div>
-                    <div className='homecontentProfilePhotoBackground'>
-                        <img src={ProfileBackground} alt='profile Backround'></img>
                     </div>
                 </div>
             </div>
