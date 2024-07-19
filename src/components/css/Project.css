@@ -70,6 +70,8 @@
     padding:0 0 2rem 0;
     display: flex;
     gap: 5rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 }
 .projectBottomBottomTop h4{
     font-size: 2rem;

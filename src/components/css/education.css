@@ -14,7 +14,7 @@
     padding: 1vh 0vh;
 }
 .educationWrapperTop h3{
-    font-size: 3.5vw;
+    font-size: 3.1rem;
     color: #344054;
 }
 .educationWrapperTop span{
@@ -43,7 +43,7 @@
     width: 100%;
 }
 .educationWrapperBottomLeft h4{
-    font-size: 1.6vw;
+    font-size: 1rem;
     color: #344054;
 }
 .educationWrapperBottomLeftFirst div{
@@ -80,7 +80,7 @@
     width: 100%;
 }
 .educationWrapperBottomRight h4{
-    font-size: 1.6vw;
+    font-size: 1rem;
     color: #344054;
 }
 .educationWrapperBottomRightFirst div{
@@ -91,4 +91,17 @@
 }
 .educationWrapperBottomRightThird div{
     color: #98A2B3;
+}
+@media(max-width:475px){
+    .educationWrapperBottomMiddle img{
+        height: 31rem;
+    }
+    .educationWrapperBottomRight div{
+        height: 52.5vw;
+        width: 100%;
+    }
+    .educationWrapperBottomLeft div{
+        height: 52.5vw;
+        width: 100%;
+    }
 }

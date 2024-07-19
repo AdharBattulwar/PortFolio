@@ -9,7 +9,7 @@ import Project from "./project.jsx"
 import HireMe from "./hireMe.jsx"
 const homepage = () => {
   return (
-    <div>
+    <div className='homePage'>
       <Navbar/>
       <HomeContent/>
       <Services/>
