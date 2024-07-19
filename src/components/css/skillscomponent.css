@@ -1,6 +1,6 @@
 .skillscomponentWrapper{
     height: 58vh;
-    width: 23vw;
+    width: 18rem;
     border-radius: 40px;
     background-color: #6868683e;
     backdrop-filter: blur(10px);
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .skillscomponentTitle span{

@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/services.css";
-import SercicesBackground from "../Icons/Servicesbackground.svg";
 import SkillsComponent from "./skillscomponent";
 import "@splidejs/react-splide/css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -8,7 +7,6 @@ const services = () => {
   return (
     <>
       <div className="servicesWrapper">
-        <img src={SercicesBackground} alt="backgorund"></img>
           <div className="servicesWrapperMain">
             <div className="servicesWrapperMainTop">
               <div className="servicesWrapperMainTopLeft">

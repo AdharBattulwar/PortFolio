@@ -132,14 +132,8 @@
     position: relative;
     top: -15rem;
 }
-.homecontentProfilePhoto:hover .homecontentProfilePhotoImg img{
-}
+
 .homecontentProfilePhoto:hover .homecontentProfilePhotoBackground img{
     transform: scale(4) scaleX(1.1) translate(-0.5rem, -2rem);
 }
-/* .homecontentWrapper:hover .homecontentProfilePhotoBackground{
-    top: -93vh;
-    transform: scale(1);
-    transform: scaleX(1.15);
-}
- */
+

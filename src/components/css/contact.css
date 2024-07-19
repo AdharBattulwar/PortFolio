@@ -24,7 +24,7 @@
     border-radius: 2rem;
 }
 .contactMiddle{
-    height: 32vh;
+    height: auto;
     width: auto;
     display: flex;
     gap: 1vw;
