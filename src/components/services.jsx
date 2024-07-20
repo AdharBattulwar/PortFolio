@@ -28,9 +28,17 @@ const services = () => {
                   options={{
                     rewind: false,
                     width:"100%",
-                    perPage:3,
+                    fixedWidth:"22rem",
+                    fixedHeight:"37rem",
                     arrows:false,
-                    gap: "1rem",
+                    gap: "4rem",
+                    mediaQuery:"max-height",
+                    breakpoints:{
+                      950:{
+                        fixedWidth:"22rem",
+                        fixedHeight:"37rem",
+                      }
+                    },
                     easing: "cubic-bezier(0.25, 1, 0.5, 1)",
                   }}
                   aria-label="My Favorite Images"

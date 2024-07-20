@@ -24,11 +24,14 @@ const project = () => {
         <Splide
                   options={{
                     rewind: false,
-                    width:"100%",
-                    perPage:2,
+                    fixedHeight:"21rem",
+                    fixedWidth:"27rem",
                     arrows:true,
-                    gap: "1rem",
-                    autoplay:true,
+                    gap: "3rem",
+                    // autoplay:true,
+                    mediaQuery:"max-width",
+                    breakpoints:{
+                    },
                     easing: "cubic-bezier(0.25, 1, 0.5, 1)",
                   }}
                   aria-label="My Favorite Images"
