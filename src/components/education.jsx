@@ -36,19 +36,19 @@ const education = () => {
                 <div className='educationWrapperBottomRightFirst'>
                     <h4>10th</h4>
                     <div className='educationWrapperBottomRigthFirstDetails'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales 
+                    Percentage : 91.2%
                     </div>
                 </div>
                 <div className='educationWrapperBottomRightSecond'>
                 <h4>12th</h4>
                 <div className='educationWrapperBottomRigthSecondDetails'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales 
+                    Percentage : 92%
                     </div>
                 </div>
                 <div className='educationWrapperBottomRightThird'>
                 <h4>Btech Computer Science Engg</h4>
                 <div className='educationWrapperBottomRigthThirdDetails'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales 
+                    CGPA : 8.39
                     </div>
                 </div>
             </div>

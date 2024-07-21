@@ -75,3 +75,21 @@
 .projectComponentWrapper:hover .projectComponentTopButton img{
     transform: rotate(0deg) scale(0.8);
 }
+@media(max-width:525px) and (min-width:425px){
+    .projectComponentWrapper{
+        height: 15.8rem;
+        width: 19rem;
+    }
+}
+@media(max-width:425px)and (min-width:375px){
+    .projectComponentWrapper{
+        height: 15.8rem;
+        width: 15rem;
+    }
+}
+@media(max-width:375px)and (min-width:320px){
+    .projectComponentWrapper{
+        height: 15.8rem;
+        width: 11rem;
+    }
+}

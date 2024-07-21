@@ -74,14 +74,33 @@
     cursor: pointer;
 }
 
-@media(max-width:475px){
+@media(max-width:1090px)and(min-width:703px){
     .hireMainLeft{
         width: 0%;
     }
-    .hireMainRightAcheivements{
-        gap: 3rem;
+    .hireMainRight{
+        width: 100%;
+        align-items: center;
     }
-    .hireMainRightHire{
-        gap: 3rem;
+    .hireMainRightHire {
+        gap: 16rem;
+    }
+    .hireMainRightAcheivements {
+        gap: 12rem;
+    }
+}
+@media (max-width:703px){
+    .hireMainLeft{
+        width: 0%;
+    }
+    .hireMainRight{
+        width: 100%;
+        align-items: center;
+    }
+    .hireMainRightHire {
+        gap: 8vw;
+    }
+    .hireMainRightAcheivements {
+        gap: 5vw;
     }
 }

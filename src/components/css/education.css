@@ -25,7 +25,6 @@
     height: 100%;
     width: 100%;
     align-items: flex-start;
-    /* gap:10rem ; */
     justify-content: space-between;
 }
 .educationWrapperBottomLeft{
@@ -92,16 +91,32 @@
 .educationWrapperBottomRightThird div{
     color: #98A2B3;
 }
-@media(max-width:475px){
+@media(max-width:376px){
+    .educationWrapperBottom{
+        height: 28rem;
+    }
     .educationWrapperBottomMiddle img{
-        height: 31rem;
+        height: 86vw;
     }
     .educationWrapperBottomRight div{
-        height: 52.5vw;
+        height: 37.5vw;
         width: 100%;
     }
     .educationWrapperBottomLeft div{
-        height: 52.5vw;
+        height: 37.5vw;
+        width: 100%;
+    }
+}
+@media(max-width:589px) and (min-width:376px){
+    .educationWrapperBottomMiddle img{
+        height: 86vw;
+    }
+    .educationWrapperBottomRight div{
+        height: 37.5vw;
+        width: 100%;
+    }
+    .educationWrapperBottomLeft div{
+        height: 37.5vw;
         width: 100%;
     }
 }

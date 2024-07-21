@@ -1,14 +1,15 @@
 .skillscomponentWrapper{
-    height: 58vh;
+    height: 23rem;
     width: 18rem;
     border-radius: 40px;
     background-color: #6868683e;
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3vh;
     align-items: center;
+    padding: 1rem 0;
 }
 .skillscomponentTitle{
     display: flex;
@@ -44,4 +45,10 @@
 .skillscomponentMain img{
     z-index: 1;
     transform: scale(0.5);
+}
+@media(max-width:375px){
+    .skillscomponentWrapper{
+        height: 15.8rem;
+        width: 16rem;
+    }
 }

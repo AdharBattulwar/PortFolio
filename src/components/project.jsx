@@ -23,14 +23,20 @@ const project = () => {
         <div className='projectMiddle'>
         <Splide
                   options={{
+                    margin:"0rem",
                     rewind: false,
                     fixedHeight:"21rem",
                     fixedWidth:"27rem",
                     arrows:true,
                     gap: "3rem",
+                    focus:"center",
                     // autoplay:true,
                     mediaQuery:"max-width",
                     breakpoints:{
+                      565:{
+                        fixedHeight:"21rem",
+                        fixedWidth:"72vw",
+                      }
                     },
                     easing: "cubic-bezier(0.25, 1, 0.5, 1)",
                   }}
