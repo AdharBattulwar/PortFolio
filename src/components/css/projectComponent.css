@@ -71,6 +71,7 @@
 .projectComponentWrapper:hover .projectComponentBottom{
     backdrop-filter: blur(10px);
     transform: scale(1.01);
+    width: 80%;
 }
 .projectComponentWrapper:hover .projectComponentTopButton img{
     transform: rotate(0deg) scale(0.8);
