@@ -17,7 +17,7 @@ const projectComponent = (props) => {
                 </h3>
             </div>
             <div className='projectComponentBottomDetails'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales 
+            {props.details}
             </div>
         </div>
     </div>

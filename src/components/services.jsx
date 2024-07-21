@@ -30,7 +30,6 @@ const services = () => {
                     width:"100%",
                     fixedWidth:"22rem",
                     fixedHeight:"37rem",
-                    focus:1,
                     arrows:false,
                     gap: "4rem",
                     mediaQuery:"max-height",

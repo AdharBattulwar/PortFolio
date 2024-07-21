@@ -43,19 +43,19 @@ const project = () => {
                   aria-label="My Favorite Images"
                 >
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent id="ProjectComponent" head="Flutter" />
+                    <ProjectComponent id="ProjectComponent" head="Flutter" details="Created A Wync Music Clone"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="React" />
+                    <ProjectComponent className="ProjectComponent" head="React" details="Created A DashStack Website"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Web Devlopment" />
+                    <ProjectComponent className="ProjectComponent" head="Web Devlopment" details="Created A Wync Music Clone"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Python" />
+                    <ProjectComponent className="ProjectComponent" head="Python" details="Created A Wync Music Clone"/>
                     
                   </SplideSlide>
                 </Splide>
