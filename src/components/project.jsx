@@ -43,19 +43,19 @@ const project = () => {
                   aria-label="My Favorite Images"
                 >
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent id="ProjectComponent" head="Flutter" details="Created A Wync Music Clone"/>
+                    <ProjectComponent id="ProjectComponent" head="Flutter" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="React" details="Created A DashStack Website"/>
+                    <ProjectComponent className="ProjectComponent" head="React" details="Created A DashStack Website" imageURL="https://images.unsplash.com/photo-1470019693664-1d202d2c0907?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Web Devlopment" details="Created A Wync Music Clone"/>
+                    <ProjectComponent className="ProjectComponent" head="Web Devlopment" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Python" details="Created A Wync Music Clone"/>
+                    <ProjectComponent className="ProjectComponent" head="Python" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1445985543470-41fba5c3144a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     
                   </SplideSlide>
                 </Splide>

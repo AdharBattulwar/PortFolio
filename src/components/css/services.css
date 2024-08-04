@@ -1,8 +1,10 @@
 .servicesWrapper{
     height: auto;
     width: 100%;
-    background-image: url(../../Icons/Servicesbackground.svg);
+    background-image: url(../../Icons/Servicesblur.svg), url(../../Icons/Servicesbackground.svg);
     background-size: cover;
+    background-position: center;
+    transition: background-image 3s;
     border-radius: 3rem;
     z-index: -1;
 }

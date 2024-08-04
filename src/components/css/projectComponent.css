@@ -1,23 +1,36 @@
 .projectComponentWrapper{
+    position: absolute;
     height: 15.8rem;
     width: 27rem;
     border-radius: 1rem;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
     cursor: pointer;
     align-items: flex-end;
     justify-content: space-between;
-    background-image: url(../../Icons/ProjectComponentImg.svg);
+    overflow: hidden;
+    /* background-image: url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
+    background-position: center; */
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
 }
+.projectComponentWrapperBackgroundImage{
+    position: relative;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    z-index: -1;
+}
 .projectComponentTop{
+    position: absolute;
     padding: 1rem ;
     height: auto;
     width: auto;
     display: flex;
-
+    z-index: 1;
 }
 .projectComponentTopButton{
     height: 3rem;
@@ -35,10 +48,12 @@
 
 }
 .projectComponentBottom{
+    position: absolute;
+    bottom: 3%;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
+    align-items: flex-start;
+    justify-content: flex-start;
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 1rem;
@@ -71,7 +86,8 @@
 .projectComponentWrapper:hover .projectComponentBottom{
     backdrop-filter: blur(10px);
     transform: scale(1.01);
-    width: 80%;
+    right: 3%;
+    width: 85%;
 }
 .projectComponentWrapper:hover .projectComponentTopButton img{
     transform: rotate(0deg) scale(0.8);

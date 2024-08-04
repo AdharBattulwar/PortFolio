@@ -35,16 +35,18 @@
 
 }
 .skillscomponentMain{
+    position: relative;
     display: flex;
     height: 40vh;
     z-index: -1;
+    overflow: hidden;
     /* background-color: beige; */
     width: 20vw;
     /* overflow: hidden; */
 }
 .skillscomponentMain img{
-    z-index: 1;
-    transform: scale(0.5);
+    object-fit: cover;
+    object-position: center;
 }
 @media(max-width:375px){
     .skillscomponentWrapper{

@@ -5,6 +5,7 @@ const projectComponent = (props) => {
   return (
     <>
     <div className='projectComponentWrapper'>
+        <img className='projectComponentWrapperBackgroundImage' src={props.imageURL} alt='img'></img>
         <div className='projectComponentTop'>
             <div className='projectComponentTopButton'>
                 <img src={ArrowRight} alt='img'></img>
