@@ -1,7 +1,41 @@
 import React from 'react'
 import EductionCenterIcon from "../Icons/educationCenterIcon.svg"
 import "./css/education.css"
-const education = () => {
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+const Education = () => {
+    useGSAP(()=>{
+        gsap.from(".educationWrapperBottomLeft",{
+            x:-500,
+            opacity:0,
+            duration:0.6,
+            scrollTrigger:{
+                trigger:".educationWrapper",
+                scroll:"body",
+                // markers:true,
+                start:"top 80%",
+                end:"bottom 0%",
+            }
+        })
+        gsap.from(".educationWrapperBottomRight",{
+            x:500,
+            opacity:0,
+            duration:0.6,
+            scrollTrigger:{
+                trigger:".educationWrapper",
+                scroll:"body",
+                // markers:true,
+                start:"top 50%",
+                end:"bottom 0%",
+            }
+        })
+    })
+    
   return (
     <>
     <div className='educationWrapper'>
@@ -58,4 +92,4 @@ const education = () => {
   )
 }
 
-export default education
+export default Education

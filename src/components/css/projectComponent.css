@@ -92,6 +92,21 @@
 .projectComponentWrapper:hover .projectComponentTopButton img{
     transform: rotate(0deg) scale(0.8);
 }
+
+.is-active .is-visible .projectComponentBottomDetails{
+    display: flex;
+    transform: scale(1.01);
+}
+.is-active .is-visible .projectComponentBottom{
+    backdrop-filter: blur(10px);
+    transform: scale(1.01);
+    right: 3%;
+    width: 85%;
+}
+.is-active .is-visible .projectComponentTopButton img{
+    transform: rotate(0deg) scale(0.8);
+}
+
 @media(max-width:525px) and (min-width:425px){
     .projectComponentWrapper{
         height: 15.8rem;
@@ -103,10 +118,36 @@
         height: 15.8rem;
         width: 15rem;
     }
+    .is-active .projectComponentBottomDetails{
+        display: flex;
+        transform: scale(1.01);
+    }
+    .is-active .projectComponentBottom{
+        backdrop-filter: blur(10px);
+        transform: scale(1.01);
+        right: 3%;
+        width: 85%;
+    }
+    .is-active .projectComponentTopButton img{
+        transform: rotate(0deg) scale(0.8);
+    }
 }
 @media(max-width:375px)and (min-width:320px){
     .projectComponentWrapper{
         height: 15.8rem;
         width: 11rem;
+    }
+    .is-active .projectComponentBottomDetails{
+        display: flex;
+        transform: scale(1.01);
+    }
+    .is-active .projectComponentBottom{
+        backdrop-filter: blur(10px);
+        transform: scale(1.01);
+        right: 3%;
+        width: 85%;
+    }
+    .is-active .projectComponentTopButton img{
+        transform: rotate(0deg) scale(0.8);
     }
 }

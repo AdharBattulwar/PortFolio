@@ -4,7 +4,62 @@ import "@splidejs/react-splide/css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import ArrowRight from "../Icons/ArrowRight.svg"
 import ProjectComponent from "./projectComponent.jsx"
-const project = () => {
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+const Project = () => {
+
+  useGSAP(()=>{
+    gsap.from(".projectTopLeft",{
+      x:-500,
+      opacity:0,
+      duration:0.8,
+      ease:"bounce.out",
+      scrollTrigger:{
+        trigger:".projectWrapper",
+        scroll:"body",
+        // markers:true,
+        start:"top 80%",
+        end:"bottom 0%",
+      }
+    })
+    
+    gsap.from(".projectTopRight",{
+      x:200,
+      opacity:0,
+      duration:0.8,
+      ease:"bounce.out",
+      scrollTrigger:{
+        trigger:".projectWrapper",
+        scroll:"body",
+        // markers:true,
+        start:"top 80%",
+        end:"bottom 0%",
+      }
+    })
+    
+    gsap.from(".projectBottomTopButton",{
+      y:-100,
+      opacity:0,
+      duration:0.8,
+      ease:"bounce.out",
+      stagger:0.1,
+      scrollTrigger:{
+        trigger:".projectBottom",
+        scroll:"body",
+        // markers:true,
+        start:"top 80%",
+        end:"bottom 0%",
+      }
+    })
+    
+  })
+
+
   return (
     <>
     <div className='projectWrapper'>
@@ -98,4 +153,4 @@ const project = () => {
   )
 }
 
-export default project
+export default Project
