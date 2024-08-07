@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/skillscomponent.css";
-// import  Flutter from "../Icons/flutter.svg"
+import  Skills1 from "../Icons/Skills.svg"
 const skillscomponent = (props) => {
   return (
     <>
@@ -10,7 +10,7 @@ const skillscomponent = (props) => {
           <span></span>
         </div>
         <div className="skillscomponentMain">
-          {/* <img src={Flutter} alt='img'></img> */}
+          <img src={Skills1} alt='img'></img>
         </div>
       </div>
     </>
