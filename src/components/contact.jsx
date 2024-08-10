@@ -1,7 +1,50 @@
 import React from 'react'
 import "./css/contact.css"
 import Handles from "../Icons/Handle.svg"
-const contact = () => {
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin({ScrollTrigger})
+
+
+const Contact = () => {
+
+useGSAP(()=>{
+    gsap.from(".contactMiddleFirst, .contactMiddleSecondHead , .contactMiddleThirdHead, .contactMiddleFourthHead ,.contactBottom",{
+        y:200,
+        opacity:0,
+        duration:1.8,
+        ease:"elastic.inOut",
+        stagger:0.2,        
+        scrollTrigger:{
+          trigger:".contactMiddle",
+          scroll:"body",
+        //   markers:true,
+          start:"top 80%",
+          end:"bottom 0%",
+        }
+    })
+    
+    gsap.from(".contactMiddleSecondChild div,.contactMiddleThirdChild div, .contactMiddleFourthChild",{
+        y:200,
+        opacity:0,
+        duration:1.8,
+        ease:"elastic.inOut",
+        stagger:0.2,
+        scrollTrigger:{
+          trigger:".contactMiddle",
+          scroll:"body",
+        //   markers:true,
+          start:"top 80%",
+          end:"bottom 0%",
+        }
+    })
+    
+    
+})
+
+
+
   return (
     <>
     <div className='contactWrapper'>
@@ -65,4 +108,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
