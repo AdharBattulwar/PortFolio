@@ -7,6 +7,7 @@
     transition: background-image 3s;
     border-radius: 3rem;
     z-index: -1;
+    transform: translateX(10);
 }
 .servicesWrapperMain{
     height: auto;
@@ -32,6 +33,8 @@
 }
 .servicesWrapperMainTopRight{
     color: white;
+    width: 50%;
+    text-wrap: wrap;
 }
 .servicesWrapperMainBottom{
     height: auto;

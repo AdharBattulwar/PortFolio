@@ -71,14 +71,17 @@ const Project = () => {
             </div>
             <div className='projectTopRight'>
                 <div className='projectTopRightButton'>
-                    See All
+                    Scroll to See All
                 </div>
             </div>
         </div>
         <div className='projectMiddle'>
         <Splide
                   options={{
+                    drag:true,
+                    wheel: true,          // Enable mouse wheel scrolling    // Time in ms after which the slider will ignore the wheel scroll
                     margin:"0rem",
+                    direction: 'ltr', // ltr or rtl
                     rewind: false,
                     fixedHeight:"21rem",
                     fixedWidth:"27rem",
@@ -98,19 +101,31 @@ const Project = () => {
                   aria-label="My Favorite Images"
                 >
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent id="ProjectComponent" head="Flutter" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                    <ProjectComponent id="ProjectComponent" head="Relyft" details="An Intercity Ride-Sharing Webapp" link="https://relyft.vercel.app/" github="https://github.com/AdharBattulwar/Relyft.git" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078296/Relyft_hxktvp.mp4"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="React" details="Created A DashStack Website" imageURL="https://images.unsplash.com/photo-1470019693664-1d202d2c0907?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                    <ProjectComponent className="ProjectComponent" head="Dashstack" details="Created A DashStack Website" github="https://github.com/AdharBattulwar/Dashstack.git" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078324/Dashstack_lwfykm.mp4"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Web Devlopment" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                    <ProjectComponent className="ProjectComponent" head="Portfolios" details="Created A Portfolio Website" github="https://github.com/AdharBattulwar/Parth-s-Portfolio.git" link="https://parthportfolio11.netlify.app/" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078310/Parth_Portfolio_oofm57.mp4"/>
                     
                   </SplideSlide>
                   <SplideSlide className="SplideSlideProject">
-                    <ProjectComponent className="ProjectComponent" head="Python" details="Created A Wync Music Clone" imageURL="https://images.unsplash.com/photo-1445985543470-41fba5c3144a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+                    <ProjectComponent className="ProjectComponent" head="SkillUp" details="A Student Management Portal" github="https://github.com/AdharBattulwar/SkillUp.git" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078318/SkillUp_nk6yku.mp4"/>
+                    
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlideProject">
+                    <ProjectComponent className="ProjectComponent" head="EC" details="A Product Listing Page" github="https://github.com/AdharBattulwar/EnginnersCraddle.git" link="https://enginnerscraddle.netlify.app/" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078323/Engineers_craddle_hw41vh.mp4"/>
+                    
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlideProject">
+                    <ProjectComponent className="ProjectComponent" head="Notes Manager" details="A Note Managing Website" github="https://github.com/AdharBattulwar/Notes-Project.git" link="https://notes-project-8omv.onrender.com/" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733080977/Notes_Manager_qcoqqt.mp4"/>
+                    
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlideProject">
+                    <ProjectComponent className="ProjectComponent" head="ShortenUrl" details="A URL Shortner" github="https://github.com/AdharBattulwar/ShortenUrl.git" imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078297/ShortenUrl_udqknu.mp4"/>
                     
                   </SplideSlide>
                 </Splide>

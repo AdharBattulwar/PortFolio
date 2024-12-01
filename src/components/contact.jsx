@@ -1,111 +1,66 @@
-import React from 'react'
-import "./css/contact.css"
-import Handles from "../Icons/Handle.svg"
-import gsap from 'gsap'
-import { useGSAP } from '@gsap/react'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin({ScrollTrigger})
-
+import React from "react";
+import "./css/contact.css";
+import Handles from "../Icons/Handle.svg";
 
 const Contact = () => {
-
-useGSAP(()=>{
-    gsap.from(".contactMiddleFirst, .contactMiddleSecondHead , .contactMiddleThirdHead, .contactMiddleFourthHead ,.contactBottom",{
-        y:200,
-        opacity:0,
-        duration:1.8,
-        ease:"elastic.inOut",
-        stagger:0.2,        
-        scrollTrigger:{
-          trigger:".contactMiddle",
-          scroll:"body",
-        //   markers:true,
-          start:"top 80%",
-          end:"bottom 0%",
-        }
-    })
-    
-    gsap.from(".contactMiddleSecondChild div,.contactMiddleThirdChild div, .contactMiddleFourthChild",{
-        y:200,
-        opacity:0,
-        duration:1.8,
-        ease:"elastic.inOut",
-        stagger:0.2,
-        scrollTrigger:{
-          trigger:".contactMiddle",
-          scroll:"body",
-        //   markers:true,
-          start:"top 80%",
-          end:"bottom 0%",
-        }
-    })
-    
-    
-})
-
-
-
   return (
     <>
-    <div className='contactWrapper'>
-        <div className='contactTop'>
-            <div className='contactTopLeft'>
-                <h3>Let's Connect Here</h3>
-            </div>
-            <div className='contactTopRight'>
-                <div className='contactTopRightButton'>
-                    Hire Me
-                </div>
-            </div>
+      <div className="contactWrapper">
+        <div className="contactTop">
+          <div className="contactTopLeft">
+            <h3>Let's Connect Here</h3>
+          </div>
+          <div className="contactTopRight">
+            <div className="contactTopRightButton">Hire Me</div>
+          </div>
         </div>
-        <div className='contactMiddle'>
-            <div className='contactMiddleFirst'>
-                <div className='contactMiddleFirstLogo'>
-                    {/* <img src='../Icons/Logo maker project.jpeg' alt='img'></img> */}
-                </div>
-                <div className='contactMiddleFirstDiscription'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.
-                </div>
-                <div className='contactMiddleFirstHandles'>
-                    <img src={Handles} alt='img'></img>
-                </div>
+        <div className="contactMiddle">
+          <div className="contactMiddleFirst">
+            <div className="contactMiddleFirstLogo">
+              {/* <img src='../Icons/Logo maker project.jpeg' alt='img'></img> */}
             </div>
-            <div className='contactMiddleSecond'>
-                <div className='contactMiddleSecondHead'>
-                    Navigation
-                </div>
-                <div className='contactMiddleSecondChild'>
-                    <div>Home</div>
-                    <div>About Us</div>
-                    <div>Service</div>
-                    <div>Resume</div>
-                    <div>Project</div>
-                </div>
+            <div className="contactMiddleFirstDiscription">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              congue interdum ligula a dignissim. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed lobortis orci elementum egestas
+              lobortis.
             </div>
-            <div className='contactMiddleThird'>
-                <div className='contactMiddleThirdHead'>
-                    Contact
-                </div>
-                <div className='contactMiddleThirdChild'>
-                    <div>+91 9421796707</div>
-                    <div>adharbattulwar24@gmail.com</div>
-                </div>
+            <div className="contactMiddleFirstHandles">
+              <img src={Handles} alt="img"></img>
             </div>
-            <div className='contactMiddleFourth'>
-                <div className='contactMiddleFourthHead'>
-                    Get The Latest Information
-                </div>
-                <div className='contactMiddleFourthChild'>
-                    <input type='text' placeholder='Email Address'></input>
-                </div>
+          </div>
+          <div className="contactMiddleSecond">
+            <div className="contactMiddleSecondHead">Navigation</div>
+            <div className="contactMiddleSecondChild">
+              <div>Home</div>
+              <div>About Us</div>
+              <div>Service</div>
+              <div>Resume</div>
+              <div>Project</div>
             </div>
+          </div>
+          <div className="contactMiddleThird">
+            <div className="contactMiddleThirdHead">Contact</div>
+            <div className="contactMiddleThirdChild">
+              <div>+91 9421796707</div>
+              <div>adharbattulwar24@gmail.com</div>
+            </div>
+          </div>
+          <div className="contactMiddleFourth">
+            <div className="contactMiddleFourthHead">
+              Get The Latest Information
+            </div>
+            <div className="contactMiddleFourthChild">
+              <input type="text" placeholder="Email Address"></input>
+            </div>
+          </div>
         </div>
-        <div className='contactBottom'>
-            Users Terms & Conditions | Privacy Policy
+        <div className="contactBottom">
+          Users Terms & Conditions | Privacy Policy
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

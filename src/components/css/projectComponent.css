@@ -33,20 +33,22 @@
     z-index: 1;
 }
 .projectComponentTopButton{
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     border: 2px solid #FD853A;
     background-color: #FD853A;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
-.projectComponentTopButton img{
-    transform: scale(0.7) rotate(-45deg);
-    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
 
+.githubIcon{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
+
 .projectComponentBottom{
     position: absolute;
     bottom: 3%;
@@ -66,7 +68,7 @@
     justify-content: flex-start;
 }
 .projectComponentBottomHead h3{
-    color:white;
+    color:black;
     font-size: 2rem;
     font-weight: 100;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
@@ -74,7 +76,7 @@
 }
 .projectComponentBottomDetails{
     display: none;
-    color: #FFEAD5;
+    color: #fe7f00;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
 
     

@@ -16,9 +16,7 @@ const services = () => {
               </div>
               <div className="servicesWrapperMainTopRight">
                 <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis{" "}
-                  <br />
-                  lacus nunc, posuere in justo vulputate, bibendum sodales
+                I am highly proficient in delivering top-quality services with a strong focus on innovation, efficiency, and attention to detail. My expertise ensures exceptional outcomes tailored to meet and exceed client expectations
                 </h5>
               </div>
             </div>
@@ -44,16 +42,28 @@ const services = () => {
                   aria-label="My Favorite Images"
                 >
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent id="SkillsComponent" title="Flutter" />
-                  </SplideSlide>
-                  <SplideSlide className="SplideSlide">
                     <SkillsComponent className="SkillsComponent" title="React" />
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Web Devlopment" />
+                    <SkillsComponent className="SkillsComponent" title="Next" />
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlide">
+                    <SkillsComponent className="SkillsComponent" title="Express" />
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlide">
+                    <SkillsComponent className="SkillsComponent" title="MongoDb" />
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlide">
+                    <SkillsComponent className="SkillsComponent" title="Node" />
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlide">
+                    <SkillsComponent className="SkillsComponent" title="Redux" />
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
                     <SkillsComponent className="SkillsComponent" title="Python" />
+                  </SplideSlide>
+                  <SplideSlide className="SplideSlide">
+                    <SkillsComponent id="SkillsComponent" title="Flutter" />
                   </SplideSlide>
                 </Splide>
               </div>
