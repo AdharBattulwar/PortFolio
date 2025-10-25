@@ -20,7 +20,7 @@ const navbar = () => {
                     <a href='/' className='navbarAIcon'>.</a>
                 </div>
                 <div className='navbarResume'>
-                    <a href='/' className='navbarAResume'>Resume</a>
+                    <a href='https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761380726/Resume_Oct_2025_edokpl.pdf' target='_blank' download="AdharBattulwarResume.pdf" className='navbarAResume'>Resume</a>
                 </div>
                 <div className='navbarProject'>
                     <a href='/' className='navbarAProject'>Project</a>

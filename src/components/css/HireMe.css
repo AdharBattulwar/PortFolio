@@ -5,10 +5,18 @@
     background-color: #F2F4F7;
     margin: 1rem 0rem;
     padding: 2rem 2rem 0 2rem ;
+    overflow: hidden;
 }
 .hireMainLeft{
     width: 50%;
 }
+
+.hiremeimage{
+    height: 100%;
+    width: 100%;
+    scale: 1.3;
+}
+
 .hireMainRight{
     width: 50%;
     padding: 4rem 4rem;

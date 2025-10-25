@@ -4,7 +4,9 @@ const hireMe = () => {
   return (
     <>
       <div className="hireWrapper">
-        <div className="hireMainLeft"></div>
+        <div className="hireMainLeft">
+            <img className="hiremeimage" src={require("../Icons/adharbattulwar-hireme.png")} alt="Hire Me Illustration"></img>
+        </div>
         <div className="hireMainRight">
           <div className="hireMainRightHead">
             <h3>

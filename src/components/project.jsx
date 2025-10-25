@@ -98,6 +98,36 @@ const Project = () => {
             <SplideSlide className="SplideSlideProject">
               <ProjectComponent
                 id="ProjectComponent"
+                head="D-Agent"
+                details="A Marketplace for AI Agents"
+                link="https://dagent.rookie.house"
+                github="https://github.com/AdharBattulwar/Relyft.git"
+                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380209/cursorful-video-1759028514868_vb34bu.mp4"
+              />
+            </SplideSlide>
+            <SplideSlide className="SplideSlideProject">
+              <ProjectComponent
+                id="ProjectComponent"
+                head="HiFi"
+                details="Your Personalized Financial AI Companion"
+                link="https://web.hifi.click/overview"
+                github="https://github.com/AdharBattulwar/Relyft.git"
+                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380201/HiFi-1753596842096_ni7lyq.mp4"
+              />
+            </SplideSlide>
+            <SplideSlide className="SplideSlideProject">
+              <ProjectComponent
+                id="ProjectComponent"
+                head="Untangle"
+                details="Demystifing Legal Documents"
+                link="https://untangle.rookie.house/"
+                github="https://github.com/AdharBattulwar/Relyft.git"
+                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380201/HiFi-1753596842096_ni7lyq.mp4"
+              />
+            </SplideSlide>
+            <SplideSlide className="SplideSlideProject">
+              <ProjectComponent
+                id="ProjectComponent"
                 head="Relyft"
                 details="An Intercity Ride-Sharing Webapp"
                 link="https://relyft.vercel.app/"
