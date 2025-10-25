@@ -73,17 +73,18 @@ const Project = () => {
         <div className="projectMiddle">
           <Splide
             options={{
-              drag: true,
-              wheel: true, // Enable mouse wheel scrolling    // Time in ms after which the slider will ignore the wheel scroll
+              // drag: true,
+              // wheel: true, // Enable mouse wheel scrolling    // Time in ms after which the slider will ignore the wheel scroll
               margin: "0rem",
               direction: "ltr", // ltr or rtl
-              rewind: false,
               fixedHeight: "21rem",
               fixedWidth: "27rem",
               arrows: true,
               gap: "3rem",
               focus: "center",
-              // autoplay:true,
+              autoplay:true,
+              interval: 2000,
+              rewind: true,
               mediaQuery: "max-width",
               breakpoints: {
                 565: {
@@ -122,7 +123,7 @@ const Project = () => {
                 details="Demystifing Legal Documents"
                 link="https://untangle.rookie.house/"
                 github="https://github.com/AdharBattulwar/Relyft.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380201/HiFi-1753596842096_ni7lyq.mp4"
+                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761388569/cursorful-video-1758479137089_1_epr6t8.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">

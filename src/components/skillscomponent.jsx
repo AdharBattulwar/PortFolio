@@ -10,7 +10,7 @@ const skillscomponent = (props) => {
           <span></span>
         </div>
         <div className="skillscomponentMain">
-          <img src={Skills1} alt='img'></img>
+          <img src={props.image || Skills1} alt='img'></img>
         </div>
       </div>
     </>

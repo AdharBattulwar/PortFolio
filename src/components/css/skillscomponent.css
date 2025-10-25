@@ -7,9 +7,10 @@
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    gap: 3vh;
+    gap: 0vh;
     align-items: center;
-    padding: 1rem 0;
+    overflow: hidden;
+    padding: 1rem 0 0 0;
 }
 .skillscomponentTitle{
     display: flex;
@@ -44,14 +45,14 @@
     overflow: hidden;
     /* background-color: beige; */
     width: 100%;
-    margin: 1rem;
+    /* margin: 1rem; */
     /* overflow: hidden; */
 }
 .skillscomponentMain img{
     position: absolute;
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
 @media(max-width:375px){
