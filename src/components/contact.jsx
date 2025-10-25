@@ -20,10 +20,12 @@ const Contact = () => {
               {/* <img src='../Icons/Logo maker project.jpeg' alt='img'></img> */}
             </div>
             <div className="contactMiddleFirstDiscription">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              congue interdum ligula a dignissim. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Sed lobortis orci elementum egestas
-              lobortis.
+              I'm available for freelance projects and full-time opportunities
+              in web development and UI design. I specialize in building
+              responsive, accessible React applications and enjoy turning ideas
+              into polished, user-friendly interfaces. Typical response time is
+              within 24-48 hours — feel free to reach out with a project brief,
+              timeline, or question and I'll get back to you promptly.
             </div>
             <div className="contactMiddleFirstHandles">
               <img src={Handles} alt="img"></img>

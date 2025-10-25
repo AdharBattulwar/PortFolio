@@ -30,7 +30,7 @@ const Education = () => {
                 trigger:".educationWrapper",
                 scroll:"body",
                 // markers:true,
-                start:"top 50%",
+                start:"top 80%",
                 end:"bottom 0%",
             }
         })
@@ -82,7 +82,7 @@ const Education = () => {
                 <div className='educationWrapperBottomRightThird'>
                 <h4>Btech Computer Science Engg</h4>
                 <div className='educationWrapperBottomRigthThirdDetails'>
-                    CGPA : 8.39
+                    CGPA : 8.72
                     </div>
                 </div>
             </div>

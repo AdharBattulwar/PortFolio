@@ -14,7 +14,8 @@
     justify-content: flex-start;
     position: relative;
     top: 0;
-    transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    scale: 1;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
 }
 .homecontentMainHello{
     padding: 10px 20px;
@@ -78,6 +79,7 @@
     align-self: self-end;
     justify-self: center;
     bottom: 0;
+    overflow: hidden;   
     display: grid;
     transition: top cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
 }
@@ -110,7 +112,7 @@
 }
 .homecontentProfilePhotoBackground{
     position: absolute;
-    z-index: -2;
+    z-index: -10;
     height: 100%;
     width: 100%;
     display: flex;
@@ -125,7 +127,8 @@
 }
 .homecontentProfilePhoto:hover ~ .homecontentMain{
     position: relative;
-    top: 18rem;
+    top: 100vh;
+    scale: 0;
 }
 
 .homecontentProfilePhoto:hover ~ .homecontentDetails {
@@ -134,7 +137,7 @@
 }
 
 .homecontentProfilePhoto:hover .homecontentProfilePhotoBackground img{
-    transform: scale(4) scaleX(1.1) translate(-0.5rem, -2rem);
+    transform: scale(3.5) scaleX(1.4) translate(-0.5rem, -2rem);
 }
 @media (max-width:600px){
     .homecontentProfilePhotoImg img{

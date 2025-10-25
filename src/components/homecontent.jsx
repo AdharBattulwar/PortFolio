@@ -3,7 +3,7 @@ import "./css/homecontent.css"
 import dbInComma from "../Icons/doubleInverted.svg"
 import RatingStar from "../Icons/Rating5Star.svg"
 import ProfilePhoto from "../Icons/Profilephoto.svg"
-import ProfileBackground from "../Icons/Profilebackground.svg"
+import ProfileBackground from "../Icons/Profilebackground.png"
 const homecontent = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const homecontent = () => {
                 </div>
                 <div className='homecontentMainInfo'>
                     <h1>
-                        I'm <span>Adhar</span>,<br/><pre>     Web      Designer</pre>
+                        I'm <span>Adhar</span>,<br/><pre>     Web      Developer</pre>
                     </h1>
                 </div>
             </div>
