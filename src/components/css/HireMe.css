@@ -1,114 +1,134 @@
-.hireWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F2F4F7;
-    margin: 1rem 0rem;
-    padding: 2rem 2rem 0 2rem ;
-    overflow: hidden;
+.hireWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f4f7;
+  margin: 1rem 0rem;
+  padding: 2rem 2rem 0 2rem;
+  overflow: hidden;
 }
-.hireMainLeft{
-    width: 50%;
+.hireMainLeft {
+  width: 50%;
 }
 
-.hiremeimage{
-    height: 100%;
+.hiremeimage {
+  height: 100%;
+  width: 100%;
+  scale: 1.3;
+}
+
+.hireMainRight {
+  width: 50%;
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hireMainRightHead {
+  padding: 2rem 0;
+}
+.hireMainRightHead h3 {
+  font-size: 3.1rem;
+  color: #1d2939;
+}
+.hireMainRightHead span {
+  color: #fd853a;
+}
+.hireMainRightDetails {
+  width: 70%;
+  padding: 0 0 2rem 0;
+  color: #98a2b3;
+  /* Proper multi-line clamp */
+  display: -webkit-box; /* create a flex-like box for clamping */
+  line-clamp: 4; /* standard property (progressive enhancement) */
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical; /* vertical orientation for the box */
+  overflow: hidden; /* hide the overflowing text */
+  /* Optional: fallback for non-WebKit browsers using line-height */
+  line-height: 1.6;
+  max-height: calc(1.6em * 4);
+}
+.hireMainRightAcheivements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+  padding: 0 0 2rem 0;
+}
+.hireMainRightAcheivementsProjects,
+.hireMainRightAcheivementsInternships {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.6rem;
+}
+.hireMainRightAcheivementsProjectsHead,
+.hireMainRightAcheivementsInternshipsHead {
+  font-size: 1.8rem;
+}
+.hireMainRightAcheivementsProjectsDetails,
+.hireMainRightAcheivementsInternshipsDetails {
+  color: #98a2b3;
+}
+.hireMainRightHire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
+  flex-wrap: wrap;
+}
+.hireMainRightHireButton,
+.hireMainRightResumeButton {
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: black;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
+}
+.hireMainRightResumeButton a {
+  text-decoration: none;
+  color: black;
+}
+
+.hireMainRightHireButton:hover,
+.hireMainRightResumeButton:hover {
+  background-color: #fd853a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1090px) and(min-width:703px) {
+  .hireMainLeft {
+    width: 0%;
+  }
+  .hireMainRight {
     width: 100%;
-    scale: 1.3;
-}
-
-.hireMainRight{
-    width: 50%;
-    padding: 4rem 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.hireMainRightHead{
-    padding: 2rem 0;
-}
-.hireMainRightHead h3{
-    font-size: 3.1rem;
-    color: #1D2939;
-}
-.hireMainRightHead span{
-    color: #FD853A;
-}
-.hireMainRightDetails{
-    width: 70%;
-    padding: 0 0 2rem 0;
-    color: #98A2B3;
-}
-.hireMainRightAcheivements{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8rem;
-    padding: 0 0 2rem 0;
+  }
+  .hireMainRightHire {
+    gap: 16rem;
+  }
+  .hireMainRightAcheivements {
+    gap: 12rem;
+  }
 }
-.hireMainRightAcheivementsProjects, .hireMainRightAcheivementsInternships{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 0.6rem;
-}
-.hireMainRightAcheivementsProjectsHead, .hireMainRightAcheivementsInternshipsHead{
-    font-size: 1.8rem;
-}
-.hireMainRightAcheivementsProjectsDetails, .hireMainRightAcheivementsInternshipsDetails{
-    color: #98A2B3;
-}
-.hireMainRightHire{
-    display: flex;
+@media (max-width: 703px) {
+  .hireMainLeft {
+    width: 0%;
+  }
+  .hireMainRight {
+    width: 100%;
     align-items: center;
-    justify-content: center;
-    gap: 9rem;
-    flex-wrap: wrap;
-}
-.hireMainRightHireButton, .hireMainRightResumeButton{
-    font-size: 1.3rem;
-    padding: 1rem 1.5rem;
-    border: 1px solid black;
-    border-radius: 1rem;
-    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.35s;
-}
-.hireMainRightHireButton:hover, .hireMainRightResumeButton:hover{
-    background-color: #FD853A;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-@media(max-width:1090px)and(min-width:703px){
-    .hireMainLeft{
-        width: 0%;
-    }
-    .hireMainRight{
-        width: 100%;
-        align-items: center;
-    }
-    .hireMainRightHire {
-        gap: 16rem;
-    }
-    .hireMainRightAcheivements {
-        gap: 12rem;
-    }
-}
-@media (max-width:703px){
-    .hireMainLeft{
-        width: 0%;
-    }
-    .hireMainRight{
-        width: 100%;
-        align-items: center;
-    }
-    .hireMainRightHire {
-        gap: 8vw;
-    }
-    .hireMainRightAcheivements {
-        gap: 5vw;
-    }
+  }
+  .hireMainRightHire {
+    gap: 8vw;
+  }
+  .hireMainRightAcheivements {
+    gap: 5vw;
+  }
 }

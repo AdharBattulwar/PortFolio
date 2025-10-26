@@ -25,6 +25,7 @@
     background-color: #FD853A;
     padding: 1vw 3vw;
     border-radius: 2rem;
+    cursor: pointer;
 }
 .contactMiddle{
     height: auto;

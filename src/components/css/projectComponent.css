@@ -46,6 +46,7 @@
 .githubIcon{
     height: 100%;
     width: 100%;
+    z-index: 2;
     object-fit: cover;
 }
 
@@ -88,6 +89,7 @@
 .projectComponentWrapper:hover .projectComponentBottom{
     backdrop-filter: blur(10px);
     transform: scale(1.01);
+    background-color: rgba(255, 255, 255, 0.425);
     right: 3%;
     width: 85%;
 }
@@ -101,6 +103,7 @@
 }
 .is-active .is-visible .projectComponentBottom{
     backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.623);
     transform: scale(1.01);
     right: 3%;
     width: 85%;
@@ -126,6 +129,7 @@
     }
     .is-active .projectComponentBottom{
         backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.623);
         transform: scale(1.01);
         right: 3%;
         width: 85%;
@@ -145,6 +149,7 @@
     }
     .is-active .projectComponentBottom{
         backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.623);
         transform: scale(1.01);
         right: 3%;
         width: 85%;

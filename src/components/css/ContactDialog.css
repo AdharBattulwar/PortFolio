@@ -1,0 +1,113 @@
+.cd-Overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  animation: cdFadeIn 150ms ease-out;
+}
+
+.cd-Content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(92vw, 540px);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 16px;
+}
+
+.cd-Title {
+  margin: 0 0 4px 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1d2939;
+}
+
+.cd-Description {
+  margin: 0 0 16px 0;
+  font-size: 0.95rem;
+  color: #667085;
+}
+
+.cd-Form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cd-Field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cd-Field label {
+  font-size: 0.9rem;
+  color: #1d2939;
+}
+.cd-Field input,
+.cd-Field textarea {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  outline: none;
+}
+.cd-Field input:focus,
+.cd-Field textarea:focus {
+  border-color: #fd853a;
+  box-shadow: 0 0 0 3px rgba(253, 133, 58, 0.2);
+}
+
+.cd-Error {
+  color: #b42318;
+  font-size: 0.8rem;
+}
+
+.cd-Actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.cd-Button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  font-size: 0.95rem;
+}
+.cd-Cancel {
+  background: #fff;
+  color: #1d2939;
+}
+.cd-Submit {
+  background: #fd853a;
+  color: #fff;
+  border: none;
+}
+.cd-Button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.cd-Result {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+.cd-Result.ok {
+  color: #027a48;
+}
+.cd-Result.err {
+  color: #b42318;
+}
+
+@keyframes cdFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

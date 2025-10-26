@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/contact.css";
 import Handles from "../Icons/Handle.svg";
+import ContactDialog from "./ContactDialog.jsx";
 
 const Contact = () => {
   return (
@@ -10,9 +11,13 @@ const Contact = () => {
           <div className="contactTopLeft">
             <h3>Let's Connect Here</h3>
           </div>
+          <ContactDialog triggerChildren={
           <div className="contactTopRight">
-            <div className="contactTopRightButton">Hire Me</div>
+            Hire Me
           </div>
+          }>
+            .
+          </ContactDialog>
         </div>
         <div className="contactMiddle">
           <div className="contactMiddleFirst">
@@ -45,7 +50,7 @@ const Contact = () => {
             <div className="contactMiddleThirdHead">Contact</div>
             <div className="contactMiddleThirdChild">
               <div>+91 9421796707</div>
-              <div>adharbattulwar24@gmail.com</div>
+              <div>support@adharbattulwar.com</div>
             </div>
           </div>
           <div className="contactMiddleFourth">

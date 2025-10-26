@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/HireMe.css";
+import ContactDialog from "./ContactDialog";
 const hireMe = () => {
   return (
     <>
@@ -31,15 +32,21 @@ const hireMe = () => {
               </div>
             </div>
             <div className="hireMainRightAcheivementsInternships">
-              <div className="hireMainRightAcheivementsInternshipsHead">2+</div>
+              <div className="hireMainRightAcheivementsInternshipsHead">1</div>
               <div className="hireMainRightAcheivementsInternshipsDetails">
                 Internship Completed
               </div>
             </div>
           </div>
           <div className="hireMainRightHire">
-            <div className="hireMainRightHireButton">Hire Me</div>
-            <div className="hireMainRightResumeButton">Resume</div>
+            <ContactDialog triggerChildren={
+              <div className="hireMainRightHireButton">Hire Me</div>
+            }>
+              .
+            </ContactDialog>
+            <div className="hireMainRightResumeButton">
+              <a href='https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761380726/Resume_Oct_2025_edokpl.pdf' target='_blank' rel="noreferrer" download="AdharBattulwarResume.pdf">Resume</a>
+            </div>
           </div>
         </div>
       </div>
