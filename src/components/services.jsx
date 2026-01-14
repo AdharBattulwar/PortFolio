@@ -44,22 +44,22 @@ const services = () => {
                   aria-label="My Favorite Images"
                 >
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Google Agentic AI Day" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761388892/IMG_20250728_013138_ady7ug.jpg" />
+                    <SkillsComponent className="SkillsComponent" title="Google Agentic AI Day" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/IMG_20250728_013138.jpg" />
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Eth Global - New Delhi" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761380160/54835708424_577b6ba7f3_o_epbipz.jpg"/>
+                    <SkillsComponent className="SkillsComponent" title="Eth Global - New Delhi" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/54835794065_fabf9383ce_o.jpg"/>
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Certificate @meta" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761390239/068b051c-b891-4991-a894-dbe648636820.png" />
+                    <SkillsComponent className="SkillsComponent" title="Certificate @meta" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Screenshot+2026-01-14+at+12-16-11+Meta_Backend_Developer.pdf.png" />
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Certificate @nvidia" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761390425/3294c092-b65a-4acb-8a39-69e312cfbdfb.png"/>
+                    <SkillsComponent className="SkillsComponent" title="Certificate @nvidia" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Screenshot+2026-01-14+at+12-17-08+My+Learning+NVIDIA+-+Deep_Learning+_+NVIDIA.pdf.png"/>
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Certificate @AICTE" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761390578/19f9c1f6-29db-44f8-af40-8ca910eaa11c.png" />
+                    <SkillsComponent className="SkillsComponent" title="Certificate @AICTE" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Screenshot+2026-01-14+at+12-18-00+AICTE_Virtual_Internship_Android_devloper.pdf.png" />
                   </SplideSlide>
                   <SplideSlide className="SplideSlide">
-                    <SkillsComponent className="SkillsComponent" title="Certificate @Cisco" image="https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761390658/e151629e-c5e2-4b68-9750-e8d655acf436.png"/>
+                    <SkillsComponent className="SkillsComponent" title="Certificate @Cisco" image="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Screenshot+2026-01-14+at+12-19-13+ADHARBATTULWAR-CCNAv7+Introduct-certificate.pdf.png"/>
                   </SplideSlide>
 
                 </Splide>

@@ -45,7 +45,7 @@ const hireMe = () => {
               .
             </ContactDialog>
             <div className="hireMainRightResumeButton">
-              <a href='https://res.cloudinary.com/dz9tzcoyr/image/upload/v1761380726/Resume_Oct_2025_edokpl.pdf' target='_blank' rel="noreferrer" download="AdharBattulwarResume.pdf">Resume</a>
+              <a href='https://adharbucket12213.s3.ap-south-1.amazonaws.com/Adhar_Battulwar_Resume_2026.pdf' target='_blank' rel="noreferrer" download="AdharBattulwarResume.pdf">Resume</a>
             </div>
           </div>
         </div>

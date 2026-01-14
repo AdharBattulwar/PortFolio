@@ -103,7 +103,7 @@ const Project = () => {
                 details="A Marketplace for AI Agents"
                 link="https://dagent.rookie.house"
                 github="https://github.com/AdharBattulwar/Relyft.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380209/cursorful-video-1759028514868_vb34bu.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/cursorful-video-1759028514868.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -113,7 +113,7 @@ const Project = () => {
                 details="Your Personalized Financial AI Companion"
                 link="https://web.hifi.click/overview"
                 github="https://github.com/AdharBattulwar/Relyft.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761380201/HiFi-1753596842096_ni7lyq.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/HiFi-1753596842096.mp4.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -123,7 +123,7 @@ const Project = () => {
                 details="Demystifing Legal Documents"
                 link="https://untangle.rookie.house/"
                 github="https://github.com/AdharBattulwar/Relyft.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1761388569/cursorful-video-1758479137089_1_epr6t8.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/cursorful-video-1764219948367.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -133,7 +133,7 @@ const Project = () => {
                 details="An Intercity Ride-Sharing Webapp"
                 link="https://relyft.vercel.app/"
                 github="https://github.com/AdharBattulwar/Relyft.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078296/Relyft_hxktvp.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Relyft.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -142,7 +142,7 @@ const Project = () => {
                 head="Dashstack"
                 details="Created A DashStack Website"
                 github="https://github.com/AdharBattulwar/Dashstack.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078324/Dashstack_lwfykm.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Dashstack.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -152,7 +152,7 @@ const Project = () => {
                 details="Created A Portfolio Website"
                 github="https://github.com/AdharBattulwar/Parth-s-Portfolio.git"
                 link="https://parthportfolio11.netlify.app/"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078310/Parth_Portfolio_oofm57.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Parth+Portfolio.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -161,7 +161,7 @@ const Project = () => {
                 head="SkillUp"
                 details="A Student Management Portal"
                 github="https://github.com/AdharBattulwar/SkillUp.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078318/SkillUp_nk6yku.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/SkillUp.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -171,7 +171,7 @@ const Project = () => {
                 details="A Product Listing Page"
                 github="https://github.com/AdharBattulwar/EnginnersCraddle.git"
                 link="https://enginnerscraddle.netlify.app/"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078323/Engineers_craddle_hw41vh.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Engineers_craddle.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -181,7 +181,7 @@ const Project = () => {
                 details="A Note Managing Website"
                 github="https://github.com/AdharBattulwar/Notes-Project.git"
                 link="https://notes-project-8omv.onrender.com/"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733080977/Notes_Manager_qcoqqt.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/Notes+Manager.mp4"
               />
             </SplideSlide>
             <SplideSlide className="SplideSlideProject">
@@ -190,7 +190,7 @@ const Project = () => {
                 head="ShortenUrl"
                 details="A URL Shortner"
                 github="https://github.com/AdharBattulwar/ShortenUrl.git"
-                imageURL="https://res.cloudinary.com/dz9tzcoyr/video/upload/v1733078297/ShortenUrl_udqknu.mp4"
+                imageURL="https://adharbucket12213.s3.ap-south-1.amazonaws.com/ShortenUrl.mp4"
               />
             </SplideSlide>
           </Splide>
